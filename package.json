@@ -1,11 +1,18 @@
 {
+  "name": "unbrain",
   "author": "highabhi",
-  "name": "node",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "dependencies": {
+    "express": "^4.14.0"
   },
-  "license": "ISC"
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "8.11.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/highabhi/node.git"
+  }
 }
